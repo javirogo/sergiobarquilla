@@ -1,0 +1,74 @@
+.centrado{
+    margin: 0px auto;
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #393939;/* #393939 */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	color: #e4e1cd;
+}
+
+input.text, input.submit{
+	background: #171717 scroll right 2px;
+	padding: 8px;
+	color: #8c8c8c;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size: 16px;
+}
+
+input.submit {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input.submit:hover{
+	color:white;
+}
+input.text.active{
+	background: #343434 scroll right -43px;
+	border-color: #000;
+	color: #fff;
+}
+
+textarea.text {
+	background: #171717;
+	color: #8c8c8c;
+    height: 500px;
+    width: 700px;
+	border: 1px solid #393939;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+.file{
+    margin-bottom: 20px;
+}
+
+.volver{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.volver a{
+	background: rgba(0,0,0,0.4);
+	padding: 8px;
+    padding-right: 10px;
+	color: #8c8c8c;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size: 16px;
+}
+.volver a:hover{
+    color:white;
+}

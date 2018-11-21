@@ -1,0 +1,429 @@
+.seccion_arriba{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.seccion_abajo{
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.actuaciones {
+    float: left;
+    width: 375px;
+    margin-left: 5px;
+    height: 493.33px;
+  border: silver 20px solid;
+  border-image-source: url("../imagenes/marco2a.png");
+  border-image-slice: 30 fill;
+  color: white;
+  text-align: justify;
+}
+
+.titulo1 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    padding-right: 20px;
+    font: bold 20px serif;
+}
+.contenido1 {
+    text-align: center;
+    position: relative;
+    top: 160px;
+    font: 18px serif;
+}
+.actuacion {
+    cursor: pointer;
+    margin-bottom: 20px;
+  transition: all 1s ease-out 0s;
+}
+.actuacion:hover{
+  transition: all 0.3s ease-out 0s;
+    color: black;
+}
+
+.dejaopinion {
+    position: relative;
+    background: rgba(155,155,155,0.1);
+    float:left;
+    width: 100%;
+    max-width: 148px;
+    height: 28px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #393939;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #393939;
+    
+}
+.dejaopinion2{
+    margin: 0 auto;
+    text-align: center;
+}
+#alternar-panel-oculto2 {
+	background: rgba(0,0,0,0.4);
+	padding: 8px;
+    padding-right: 10px;
+	color: #8c8c8c;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size: 16px;
+}
+#alternar-panel-oculto2:hover{
+    color: white;
+}
+.veropiniones{
+    position: relative;
+    float: left;
+    background: rgba(155,155,155,0.1);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 28px;
+    text-align: center;
+    width: 100%;
+    max-width: 148px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #393939;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #393939;
+}
+.opiniones{
+    overflow: hidden;
+    min-height: 170px;
+    height: auto;
+    margin: 0px auto 0px;
+    margin-top:20px;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    /*border: silver 10px solid;
+    border-image-source: url("../imagenes/marco1f.png");
+    border-image-slice: 2% fill;*/
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #393939;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.titulo2{
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 496px;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    font: 30px serif;
+}
+.contenido2total{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.contenido2{
+    text-align: center;
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    vertical-align:middle;
+    font: 20px serif;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.comentarios {
+    background:url(../../imagenes/bg.png);
+    float:left;
+    position:relative;
+	width: 1075px;
+    height: auto;
+}
+
+.comentarios h2{
+    margin: 0px;
+    padding: 19px;
+    background: rgba(255,255,255,0.9);
+    Color: black;
+}
+
+.comentarios a{
+    Color: #6E6E6E;
+}
+
+.comentarios a:hover{
+    Color: #1C1C1C;
+}
+
+.commentGlobal {
+	/*border: 1px solid #DDDDDD;*/
+	list-style: none outside none;
+	margin: 0px auto;
+    margin-top: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+    width: 100%;
+	max-width: 570px;
+}
+.comment {
+	/*border: 1px solid #DDDDDD;*/
+    background: rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px black;
+	border-radius: 3px;
+	list-style: none outside none;
+	margin: 0px auto;
+    margin-bottom: 0px;
+	padding: 5%;
+	width: 92%;
+    max-width: 520px;
+	color: #e4e1cd;
+}
+.comment-avatar {
+	float: left;
+	padding-left: 5px;
+	padding-top: 5px;
+	position: relative;
+	width: 6%;
+	margin-left: 10px;
+}
+.comment-autor {
+	float: left;
+	margin: 10px 10px 10px;
+	padding-left: 5px;
+	padding-top: 5px;
+	position: relative;
+	width: 50%;
+}
+.comment-autor a {
+    color:Black;
+}
+.comment-autor a:hover {
+    color:#0B2161;
+}
+.comment-text {
+    background: rgba(0,0,0,0.4);
+    color: #8c8c8c;
+    margin-left: 80px;
+	margin-right: 40px;
+	margin-top: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 3px;
+}
+
+.gracias{
+    text-align: center;
+    background:  rgba(0,0,0,0.4);
+    width: 90%;
+    max-width: 300px;
+    padding: 30px;
+	color: #e4e1cd;
+    font: bold 25px serif;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+	border: 1px solid #393939;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+gracias2{
+    width: 100%;
+}
+
+input.text, input.submit{
+	background: #171717 scroll right 2px;
+	padding: 8px;
+	color: #8c8c8c;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size: 16px;
+}
+
+input.submit {
+	width:90px;
+    margin-bottom: 0px;
+}
+.centrado{
+    text-align: center;
+}
+input.submit:hover{
+	color:white;
+}
+input.text.active{
+	background: #343434 scroll right -43px;
+	border-color: #000;
+	color: #fff;
+}
+
+textarea.text, input.text {
+    width: 95%;
+    padding: 1%;
+}
+
+textarea.text {
+	background: #171717;
+	color: #8c8c8c;
+	border: 1px solid #393939;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+.titulo{
+    position: relative;
+    margin-left: 0px auto;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 150px;
+}
+.direccion{
+    position: relative;
+    margin-left: 0px auto;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.mapa{
+    margin: 0 auto;
+    text-align: center;
+}
+.borra{
+    
+}
+.fraseinicio{
+    max-width: 750px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: white;
+    font-family:Monotype Corsiva;
+    text-align: center;
+    overflow: hidden;
+}
+.frase{
+    position: relative;
+    float:left;
+    width: 100%;
+}
+.autor2{
+    position: relative;
+    float: right;
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1040px) {
+        .fraseinicio{
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            font-size: 30px;
+            color: white;
+            font-family:Monotype Corsiva;
+            text-align: center;
+            overflow: hidden;
+        }
+}
+@media screen and (max-width: 928px) {
+        .fraseinicio{
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            font-size: 30px;
+            color: white;
+            font-family:Monotype Corsiva;
+            text-align: center;
+            overflow: hidden;
+        }
+}
+@media screen and (max-width: 960px) {
+
+        .dejaopinion {
+            position: relative;
+            /*background: url(../imagenes/opinion.png);*/
+            float:left;
+            width: 50%;
+            max-width: 398px;
+            text-align: center;
+        }
+        .veropiniones{
+            position: absolute;
+            margin-left: 50%;
+            text-align: center;
+            width: 50%;
+            max-width: 398px;
+        }
+        .titulo2{
+            position: relative;
+            float: left;
+            width: 100%;
+            max-width: 796px;
+            text-align: center;
+            position: relative;
+            margin-top: 20px;
+            font: 30px serif;
+        }
+}
+@media screen and (max-width: 500px) {
+
+        .gracias{
+            padding: 4%;
+            margin-right: 10%;
+        }
+        .dejaopinion {
+            position: relative;
+            /*background: url(../imagenes/opinion.png);*/
+            float:left;
+            width: 100%;
+            margin-top: 60px;
+            text-align: center;
+            max-width: none;
+            border-right: none;
+        }
+        .veropiniones{
+            border-left: none;
+            max-width: none;
+            margin-left: 0px;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+        }
+}

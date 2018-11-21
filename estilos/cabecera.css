@@ -1,0 +1,355 @@
+html, body{
+  background: #323232 url(../imagenes/bg2.png);
+font: 18px sans-serif;
+margin: 0px auto;
+    color:white;
+    /*cursor : url("../imagenes/cursor5.png"), default;*/
+    min-height: 100%;
+}
+
+/* definimos la fuente personalizada */
+@font-face {
+       font-family: 'today';
+       src: url('../fuentes/today.TTF');
+}
+@font-face {
+       font-family: 'willg';
+       src: url('../fuentes/willg.TTF');
+}
+
+/*links */
+a{
+color: white;
+text-decoration: none;
+    /*cursor : url("../imagenes/cursor4.png"), pointer;*/
+} 
+
+a:hover{
+color:#BDBDBD;
+    
+   /* cursor : url("../imagenes/cursor4.png"), pointer;*/
+}
+
+/* cursor en input */
+
+input {
+   /* cursor : url("../imagenes/cursor4.png"), default;*/
+}
+textarea {
+  /*  cursor : url("../imagenes/cursor4.png"), text;*/
+}
+
+/* logos*/
+
+#panel_logos{
+    float: right;
+    font: italic 18px Georgia;
+}
+
+/* logo facebook*/
+#facebook {
+    width: 100%;
+    overflow: hidden;
+}
+#derecha_facebook{
+    float: right;
+}
+#panel_logos #derecha_facebook {
+background: url(../imagenes/facebook1.png) no-repeat 0 0;
+background-size: 25px 25px;
+}
+
+#panel_logos #derecha_facebook a{
+width:25px; height:25px;
+display:block; 
+text-decoration:none; 
+}
+
+#panel_logos #facebook a:hover{
+background:url(../imagenes/facebook2.png) no-repeat 0 0 ;
+background-size: 25px 25px;
+}
+
+/* banner titulo*/
+
+#banner_out {
+/*border: 1px solid #CCC;*/
+background: #323232 url(../imagenes/bg.png);
+  background:rgba(0,0,0,0);
+left: 0px;
+right: 0px;
+margin: 0px auto;
+}
+
+#banner {
+/*border: 1px solid #CCC;*/
+overflow: hidden;
+width: 85%;
+max-width: 1220px;
+margin: 0px auto;
+/* box-shadow: 8px 8px 5px #003366;           AÑADIMOS SOMBRA*/
+}
+ 
+/* nombre*/
+
+.izquierda { 
+    float:left;
+} 
+
+/* logo facebook*/
+
+.derecha{
+	float: right;
+    color: white;
+    padding-top: 70px;
+    height:80px;
+    font: 15px cursive;
+    width: auto;
+    margin: 0 auto;
+    text-align: right;
+    
+}
+#numero p{
+    margin: 0;
+}
+
+#email p{
+    margin: 0;
+}
+
+/* Cuerpo principal de la página */
+
+.cuerpo {
+    position: relative;
+    width: 85%;
+    max-width: 1220px;
+    left: 0px;
+    right: 0px; 
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.pie {
+background: #333 url(../imagenes/bgpie3.png) no-repeat;
+position: relative;
+top: 185px;
+margin: 0px auto;
+height:200px;
+width: 1075px;
+}
+.pie a {
+    color:darkgrey;
+}
+.pie a:hover {
+    color:gray;
+}
+
+h5 {
+    margin: 0px auto;
+    font-family: cursive; 
+    color: white;
+}
+
+h5.titulo{
+    font-family: "Homer Simpson", cursive; 
+    color: white;
+}
+.columnas{
+margin: 0px auto;
+width: 1075px;
+}
+.columna1{
+    text-align: center;
+    float:left;
+    position: relative;
+    top:20px;
+    padding-left: 35px;
+}
+.columna2{
+    text-align: center;
+    float:left;
+    position: relative;
+    top:20px;
+    padding-left: 335px;
+}
+.columna3{
+    text-align: center;
+    float:left;
+    top:20px;
+    padding-left: 401px;
+    position: relative;
+}
+
+/* Barra de Sesión */
+.izquierda_sesion {
+	float:left;
+    color: rgb(200,200,200);
+}
+
+.derecha_sesion{
+	float: right;
+}
+.derecha_sesion a{
+    color: rgb(200,200,200);
+}
+.derecha_sesion a:hover{
+    color: rgb(150,150,150);
+}
+.iniciosesion{
+	height: 30px;
+    width: 85%;
+	max-width: 1200px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+/* Sección del Menú */
+
+.indice_defecto {
+  background-image: url(../imagenes/bg.png);
+  margin: 0px auto;
+  font: 18px menu;
+  letter-spacing: 0.4px;
+  font-weight: bold;
+}
+
+.menu_defecto {
+    /*transition: background 0.5s ease-out 0s;*/
+    background: rgba(59,59,59,0.9);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.1) 100%);
+    background: -webkit-gradient(top, bottom, color-stop(0%, rgba(0,0,0,0.1)), color-stop(50%, rgba(0,0,0,0.9)), color-stop(100%, rgba(0,0,0,0.1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.1) 100%);
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu .logo {
+    display:none;
+}
+
+.menu .logo img {
+    vertical-align: top;
+    height: 22px;
+}
+
+.menu .btn-menu {
+    display: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.menu .logo:hove {
+    background: #4357ad;
+}
+
+.menu .enlaces{
+    display: inline-block;
+    text-align: right;
+}
+
+.menu .enlaces a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.menu .enlaces i{
+    margin-right: 5px;
+}
+
+.menu .enlaces:hover a{
+    transition: all 0.5s ease-out 0s;
+    color: #FFF;
+}
+
+.menu .enlaces a:hover{
+    text-shadow: -1px 0 red, 1px 0 red, 0 1px red, 0 -1px red;
+    color: #FFF;
+}
+
+/* Mediaqueries */
+
+@media screen and (max-width:850px){
+    header .menu {
+        flex-direction: column;
+    }
+    
+    header .menu .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 80%;
+        padding: 1em;
+    }
+    
+    header .menu .logo .btn-menu{
+        display: inline-block;
+    }
+    header .menu .enlaces {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:655px){
+
+    header .menu .enlaces {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .izquierda{
+        float: left;
+        width: 100%;
+    }
+    .logo_banner{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .derecha{
+        padding-top: 20px;
+        float: left;
+        width: 100%;
+    }
+    #panel_logos{
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+    }
+    #panel_logos a{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #facebook{
+        margin: 0 auto;
+        width: 25px;
+        height: 25px;
+    }
+}
+
