@@ -80,11 +80,11 @@ include "./conexion.php";
     <div class=cuerpo>
         <div class="fraseinicio">
             <div class="frase">
-                "Cuando la gente te diga que es imposible, sonrie y entiende que la realidad que estás a punto de crear, ellos no la pueden ni imaginar"
+                "Elige vivir la magia"
             </div>
-            <div class="autor2">
+            <!-- <div class="autor2">
                 David Copperfield
-            </div>
+            </div> -->
         </div>
         <!-- Sección arriba -->
         <div class="seccion_arriba">
