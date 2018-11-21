@@ -1,6 +1,0 @@
-allow from all
-
-RewriteEngine On
-RewriteBase /
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.sergiobarquilla.com/$1 [R,L]
