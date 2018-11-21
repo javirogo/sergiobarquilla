@@ -80,7 +80,7 @@ include "./conexion.php";
     <div class=cuerpo>
         <div class="fraseinicio">
             <div class="frase">
-                "Elige vivir la magia"
+                Elige vivir la magia
             </div>
             <!-- <div class="autor2">
                 David Copperfield

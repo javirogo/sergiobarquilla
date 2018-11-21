@@ -38,11 +38,15 @@ include "../conexion.php";
 <!-- End WOWSlider.com BODY section -->
         
         <div class=letra>
+        <b>Sergio Barquilla</b> es un artista nacido en Badajoz y residente en Cáceres. Vive la magia
+        con <b>pasión</b>, <b>respeto</b> y <b>amor</b> infinito, por ello no ha parado de formarse en esta rama de
+        las artes escénicas además de en disciplinas paralelas como teatro y circo para mejorar
+        sus espectáculos de magia día a día.<br/><br/>
+        Ésta formación extra, le da a sus espectáculos un toque de frescura, originalidad y
+        profesionalidad que sumado a su experencia sobre las tablas consigue su objetivo
+        principal: asombrar y divertir a su público, ya sea en una reunión para pequeños grupos,
+        la plaza de un pueblo o un gran teatro.<br/>
             
-            <b>Sergio Barquilla</b> es un mago nacido en Badajoz y residente en Cáceres. Se inició hace más de 5 años en el mundo de la magia, viviendola con <b>pasión</b>, <b>respeto</b> y <b>amor</b> infinito, por ello no ha parado de formarse en magia, y en disciplinas paralelas para mejorar sus espectáculos de magia día a día. En el 2014, se matricula en la Escuela Superior de Arte Dramático (ESAD) de Extremadura adquiriendo así técnicas actorales imprescindibles para subirse a un escenario. Así mismo se forma en disciplinas circenses como clown o malabares.<br/><br/>
-            
-            Ésta formación extra, le da a sus espectáculos un toque de frescura, originalidad y profesionalidad lo que le lleva a trabajar por toda Extremadura, en actuaciones tanto privadas como públicas, como en IBEROCIO (2013, 2014), en el FanCineGay (2015) o numerosas actuaciones en salas como el Centro de Ocio Contemporaneo (COC) de Badajoz, Maltravieso Border Scene de Cáceres, la Sala Guirigai de los Santos de Maimona o La Espiral de Jerez de los caballeros.<br/>
-
         </div>
     </div>
 </body>
