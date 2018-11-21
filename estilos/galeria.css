@@ -1,0 +1,77 @@
+ol, ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+    font-weight: normal;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.container > header{
+    padding: 20px 20px 10px 20px;
+    margin: 0 20px 10px 20px;
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > header h1 span{
+    color: #c7957b;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.container > header h1 {
+    position: relative;
+    color: rgba(230,230,230,1);
+    padding: 0 0 5px 0;
+}
+.container > header h2, p.info{
+    color: #4a3124;
+    text-shadow: 0 1px 1px rgba(255,255,255,1);
+}
+@media screen and (max-width: 767px){
+    .container > header{
+        text-align: center;
+    }
+    p.codrops-demos{
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+}
+.agregar {
+    display:inline-block; 
+    background: url(../imagenes/add.png) no-repeat 0 0;
+    background-size: 16px 16px;
+}
+.agregar a{
+    width:16px; height:16px;
+    display:block; 
+    text-decoration:none; 
+}
+.agregar a:hover{
+    background: url(../imagenes/add2.png) no-repeat 0 0;
+    background-size: 16px 16px;
+}
+.eliminar {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    background: url(../imagenes/remove.png) no-repeat 0 0;
+    background-size: 16px 16px;
+}
+.eliminar a{
+    color: white;
+    width:16px; height:16px;
+    display:block; 
+    text-decoration:none; 
+}
+.eliminar a:hover{
+    background: url(../imagenes/remove2.png) no-repeat 0 0;
+    background-size: 16px 16px;
+}

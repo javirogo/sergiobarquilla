@@ -1,0 +1,59 @@
+.centrado {
+    background-color: rgba(0,0,0,0.7);
+	margin: 0pt auto;
+	width: 280px;
+    height: auto;
+    border: outset #000;
+    border-color: #e4e1cd;
+}
+
+.textoinicio {
+  opacity: 2; 
+margin-left: 30px;
+margin-bottom: auto;
+margin-right: 30px;
+color: #e4e1cd;
+}
+
+.textoTitulo{
+    text-align:center;
+    font-weight:bold;
+}
+.imagenLogo{
+    text-align: center;
+}
+h1 {
+color: #e4e1cd;
+text-align: center;
+}
+
+.cuerpo {
+    background-color: rgba(0,0,0,0);
+    padding-top: 70px;
+}
+input.text, input.submit{
+    width: 195px;
+	background: #171717;
+	padding: 8px;
+	color: #8c8c8c;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size: 16px;
+}
+input.text.active{
+	background: #343434;
+	border-color: #000;
+	color: #fff;
+}
+input.submit{
+	width: 213px;
+	background: #171717;
+	color: #e4e1cd;
+	border-color: #c8c8c8;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}

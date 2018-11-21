@@ -1,0 +1,123 @@
+
+.commentGlobal {
+	/*border: 1px solid #DDDDDD;*/
+	list-style: none outside none;
+	margin: 0px auto;
+    margin-top: 40px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 100%;
+}
+.comment {
+	/*border: 1px solid #DDDDDD;*/
+    background: rgba(117,117,117,0.2);
+    box-shadow: 0 2px 5px black;
+	border-radius: 3px;
+	list-style: none outside none;
+	margin: 0px auto;
+    margin-bottom: 0px;
+	padding: 5px;
+	width: 80%;
+    border: 1px solid #393939;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+    overflow: hidden;
+}
+.comment-avatar {
+	float: left;
+	padding-left: 5px;
+	padding-top: 5px;
+	position: relative;
+	width: 55px;
+	margin-left: 10px;
+}
+.comment-autor {
+	float: left;
+	margin: 10px 10px 10px;
+	padding-left: 5px;
+	padding-top: 5px;
+	position: relative;
+	width: auto;
+}
+.comment-text {
+    background: rgba(0,0,0,0.4);
+    color: white;
+    margin-left: 80px;
+	margin-right: 40px;
+	margin-top: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 3px;
+}
+
+input.submit{
+	background: #171717 scroll right 2px;
+	padding: 8px;
+	color:white;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size: 16px;
+	width:90px;
+}
+input.submit:hover{
+	color: #8c8c8c;
+}
+.centrado{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 100px;
+}
+
+.volver{
+	background: #171717 scroll right 2px;
+	padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+	color:white;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size: 16px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:450px){
+    .comment-avatar {
+        display: none;
+    }
+    .comment-autor {
+        margin: 0;
+        padding:0;
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .comment-text {
+        position: relative;
+        margin:0 auto;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 3px;
+    }
+}

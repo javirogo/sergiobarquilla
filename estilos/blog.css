@@ -1,0 +1,76 @@
+.contenedor {
+	overflow:hidden;
+	background: rgba(115,115,115,0.1);
+	width: 870px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #393939;/* #393939 */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+.imagen_a {
+	float:left;
+    margin: 5px;
+}
+.imagen_b {
+	float:left;
+}
+
+.imagen2 {
+	width:200px;
+	height:200px;
+    margin-top: 10px;
+	
+}
+.imagen3 {
+	width:100px;
+	height:100px;
+	
+}
+
+.titulo_a {
+	font: bold 30px serif;
+	padding-left: 20px;
+	float:left;
+	width:730px;
+}
+
+.texto_a {
+	float:left;
+	padding-top:20px;
+	padding-left:20px;
+	width:730px;
+    text-align: justify;
+}
+
+.titulo_b {
+	font: bold 30px serif;
+	padding-left: 20px;
+	float:left;
+	width:630px;
+}
+
+.texto_b {
+	float:left;
+	padding-top:20px;
+	padding-left:20px;
+	width:630px;
+    text-align: justify;
+}
+.volver{
+	float:left;
+	width:630px;
+	padding-top:20px;
+	padding-left:20px;
+}
+
+.entrada{
+	width:870px;
+	background: rgba(0,0,0,0.4);
+	margin:auto;
+	padding:20px;
+	text-align:center;
+}

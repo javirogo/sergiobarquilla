@@ -1,0 +1,16 @@
+#wowslider-container1{
+    height: auto;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.letra {
+    font: italic 20px/30px Georgia, serif;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+@media screen and (max-width:850px){
+    #wowslider-container1{
+        width: 100%;
+    }
+}
